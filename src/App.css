@@ -151,12 +151,12 @@
 .media-page{
   height: 150vh;
   width: 100%;
-  background-color: rgb(65, 101, 125);
+  background-color: #d8d2c2;
 }
 .empty-page{
   padding-top: 8%;
-  height: 50vh;
-  width: 80%;
+  height: 30vh;
+  width: 100%;
 }
 #screener-link {
     display: inline-block;
