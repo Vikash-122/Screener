@@ -8,7 +8,7 @@ import gen_img from "./images/big-pic.png";
 export default function MediaCoverage() {
   return (
     <div className="media-page">
-      <div className="empty-page mx-auto">
+      <div className="empty-page">
         <h2 style={{
           fontSize: 50,
           textAlign: "center"
@@ -18,7 +18,7 @@ export default function MediaCoverage() {
           textAlign: "center"
         }}>Media coverage & insights from our experts</p>
       </div>
-      <div className="d-flex flex-row mb-3 justify-content-evenly">
+      <div className="d-flex flex-row justify-content-evenly">
         <Cards image = {building}></Cards>
         <Cards image = {bar}></Cards>
         <Cards image = {gen_img}></Cards>
